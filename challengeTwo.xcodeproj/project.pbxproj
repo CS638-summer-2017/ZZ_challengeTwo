@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE39D20C1F33A1F6007E8758 /* NamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D20B1F33A1F6007E8758 /* NamesTableViewController.swift */; };
+		FE39D20E1F33A2A2007E8758 /* ProperNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D20D1F33A2A2007E8758 /* ProperNames.swift */; };
+		FE39D20F1F33A77E007E8758 /* propernames.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE39D20A1F33A0C2007E8758 /* propernames.txt */; };
 		FE3B4CE51F33811900306C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B4CE41F33811900306C80 /* AppDelegate.swift */; };
-		FE3B4CE71F33811900306C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B4CE61F33811900306C80 /* ViewController.swift */; };
 		FE3B4CEA1F33811900306C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B4CE81F33811900306C80 /* Main.storyboard */; };
 		FE3B4CEC1F33811900306C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B4CEB1F33811900306C80 /* Assets.xcassets */; };
 		FE3B4CEF1F33811900306C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B4CED1F33811900306C80 /* LaunchScreen.storyboard */; };
+		FED21B5C1F4349F600C377D3 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED21B5B1F4349F600C377D3 /* AddTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE39D20A1F33A0C2007E8758 /* propernames.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = propernames.txt; sourceTree = "<group>"; };
+		FE39D20B1F33A1F6007E8758 /* NamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewController.swift; sourceTree = "<group>"; };
+		FE39D20D1F33A2A2007E8758 /* ProperNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperNames.swift; sourceTree = "<group>"; };
 		FE3B4CE11F33811900306C80 /* challengeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challengeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3B4CE41F33811900306C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE3B4CE61F33811900306C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE3B4CE91F33811900306C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE3B4CEB1F33811900306C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3B4CEE1F33811900306C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE3B4CF01F33811900306C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED21B5B1F4349F600C377D3 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				FE3B4CE41F33811900306C80 /* AppDelegate.swift */,
-				FE3B4CE61F33811900306C80 /* ViewController.swift */,
 				FE3B4CE81F33811900306C80 /* Main.storyboard */,
+				FED21B5B1F4349F600C377D3 /* AddTableViewController.swift */,
+				FE39D20B1F33A1F6007E8758 /* NamesTableViewController.swift */,
+				FE39D20D1F33A2A2007E8758 /* ProperNames.swift */,
 				FE3B4CEB1F33811900306C80 /* Assets.xcassets */,
 				FE3B4CED1F33811900306C80 /* LaunchScreen.storyboard */,
 				FE3B4CF01F33811900306C80 /* Info.plist */,
+				FE39D20A1F33A0C2007E8758 /* propernames.txt */,
 			);
 			path = challengeTwo;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE39D20F1F33A77E007E8758 /* propernames.txt in Resources */,
 				FE3B4CEF1F33811900306C80 /* LaunchScreen.storyboard in Resources */,
 				FE3B4CEC1F33811900306C80 /* Assets.xcassets in Resources */,
 				FE3B4CEA1F33811900306C80 /* Main.storyboard in Resources */,
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3B4CE71F33811900306C80 /* ViewController.swift in Sources */,
+				FE39D20C1F33A1F6007E8758 /* NamesTableViewController.swift in Sources */,
+				FE39D20E1F33A2A2007E8758 /* ProperNames.swift in Sources */,
 				FE3B4CE51F33811900306C80 /* AppDelegate.swift in Sources */,
+				FED21B5C1F4349F600C377D3 /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
